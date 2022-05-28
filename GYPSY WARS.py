@@ -23,3 +23,5 @@ class Card:
     def __init__(self, name: str, value: int) -> None:
         """Initialize a new instance of a card"""
         
+
+# New comments. 

@@ -1,7 +1,8 @@
 import GYPSYWARS as gw 
 
 def main():
-    print('hello')
+    p1 = gw.Player()
+    p2 = gw.Player() 
     return 
 
 main()

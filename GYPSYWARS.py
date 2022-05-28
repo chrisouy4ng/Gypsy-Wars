@@ -20,7 +20,7 @@ class Deck:
     attributes: 
     cards -> List[Card]
     """ 
-    def __init__(self, cards: List[Card]) -> None:
+    def __init__(self, cards) -> None:
         """Initialize a new instance of a deck"""
         self.cards = []
         for card in cards:
@@ -34,4 +34,4 @@ class Player:
     """A class that represents a player in the game, who is in posession of a deck"""
 
     def __init__(self, turn):
-        self.turn = False 
+        self.turn = turn 

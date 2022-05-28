@@ -30,6 +30,7 @@ class Card:
             self.is_face = False
         
 class Deck:
-    """ A class that represents a deck of cards,
+    """ A class that represents a deck of cards """ 
+    def __init__(self, player, cards)
     
     

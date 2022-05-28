@@ -22,6 +22,14 @@ class Card:
 
     def __init__(self, name: str, value: int) -> None:
         """Initialize a new instance of a card"""
+        self.name = name
+        self.value = value
+        if value in [1, 11, 12, 13]:
+            self.is_face = True
+        else:
+            self.is_face = False
         
-
-# New comments. 
+class Deck:
+    """ A class that represents a deck of cards,
+    
+    

@@ -30,7 +30,20 @@ class Card:
             self.is_face = False
         
 class Deck:
-    """ A class that represents a deck of cards """ 
-    def __init__(self, player, cards)
+    """ A class that represents a deck of cards 
+    attributes: 
+    cards -> List[Card]
+    """ 
+    def __init__(self, cards: List[Card]) -> None:
+        """Initialize a new instance of a deck"""
+        self.cards = []
+        for card in cards:
+            self.cards.append(card)
     
+    def is_empty(self):
+        """Return whether or not this deck is empty"""
+        return len(self.cards) == 0
+    
+class Player:
+    """A class that represents a player in the game, who is in posession of a deck
     
